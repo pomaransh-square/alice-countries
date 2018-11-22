@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>UGANDA</title>
+  </head>
+  <body>
+    <div id="nav-body-ctrls"></div>
+    <div id="nav-body-tabs"></div>
+    <div id="nav-body-views"></div>
+
+    <script>
+      // You can also require other files to run in this process
+      const enav = new (require('electron-navigation'))({
+
+      });
+      require('./renderer.js')
+
+    </script>
+  </body>
+</html>
