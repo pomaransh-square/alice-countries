@@ -1,0 +1,21 @@
+{
+  "name": "synonyms",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "alice-renderer": "^0.8.0",
+    "lodash": "^4.17.15",
+    "micro": "^9.3.4",
+    "yandex-dialogs-sdk": "^2.3.0"
+  },
+  "devDependencies": {
+    "husky": "^4.0.1"
+  },
+  "scripts": {
+    "start": "micro -l tcp://0.0.0.0:${PORT-3000}"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
